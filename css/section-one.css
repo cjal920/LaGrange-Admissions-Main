@@ -1,0 +1,32 @@
+/* SECTION ONE */
+
+.title-ha31 {
+    font-size: 70px;
+    font-weight: 900;
+    /* color: #38464F; */
+    /* color: #FCAF17; */
+    color: #39474f;
+    /* text-align: center; */
+}
+
+@media (max-width: 800px) {
+    .title-ha31 {
+        font-size: 30px;
+    }
+}
+
+.section-ha31,
+.title-ha31 {
+    font-family: "brother-1816", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
