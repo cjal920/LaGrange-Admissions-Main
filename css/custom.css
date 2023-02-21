@@ -1,0 +1,42 @@
+/* BOOTSTRAP OVERRIDE */
+.header .inner {
+    /* background-color: linear-gradient(#c21f32,#981b2d); */
+    background-image: url("/image/wave-overlapping-no-stroke.png"), linear-gradient(#c21f32,#981b2d);
+
+    /* background-image: linear-gradient(0deg, #c21f32,#981b2d), url('image/wave-overlapping-no-stroke.png'); */
+    margin: 0.625rem 0;
+    height: 5.625rem;
+}
+
+
+/* SECTION ONE */
+
+.title-ha31 {
+    font-size: 70px;
+    font-weight: 900;
+    /* color: #38464F; */
+    /* color: #FCAF17; */
+    color: #39474f;
+    /* text-align: center; */
+}
+
+@media (max-width: 800px) {
+    .title-ha31 {
+        font-size: 30px;
+    }
+}
+
+.section-ha31,
+.title-ha31 {
+    font-family: "brother-1816", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
