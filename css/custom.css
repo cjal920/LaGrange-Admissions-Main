@@ -33,6 +33,38 @@
     font-style: normal;
 }
 
+footer .inner-wrap {
+background-color: #39474f;
+background-image: url("/image/wave-overlapping-no-stroke.png");
+}
+
+.top-row {
+    background-color: #39474f;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 13px;
+    color: #fcaf17;
+}
+
+.footer-text {
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-links {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.copyright-ha31 {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
 
 
 
