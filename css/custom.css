@@ -12,13 +12,61 @@
 /* SECTION ONE */
 
 .title-ha31 {
-    font-size: 70px;
+    font-size: 60px;
+    font-weight: 900;
+    /* color: #38464F; */
+    /* color: #FCAF17; */
+    color: #fff;
+    /* text-align: center; */
+}
+
+.subtitle-ha31 {
+    font-size: 35px;
     font-weight: 900;
     /* color: #38464F; */
     /* color: #FCAF17; */
     color: #39474f;
     /* text-align: center; */
 }
+
+.yellow-subtitle-ha31 {
+    font-size: 35px;
+    font-weight: 900;
+    /* color: #38464F; */
+    /* color: #FCAF17; */
+    color: #fcaf17;
+    /* text-align: center; */
+}
+
+
+.main-grey {
+    background: #39474f;
+    padding: 5px;
+    background-image: url("/image/wave-dark.png");
+    background-color: #39474f;
+}
+
+.main-white{
+    /* background: #39474f; */
+    padding: 5px;
+}
+
+.list-on-grey   {
+    color: #fcaf17;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.list-on-white   {
+    color: #99132b;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-on-grey   {
+    color: #fff;
+}
+
 
 @media (max-width: 800px) {
     .title-ha31 {
@@ -63,12 +111,80 @@ background-image: url("/image/wave-overlapping-no-stroke.png");
     font-size: 15px;
     text-align: center;
     color: #fff;
-    padding: 20px;
+    /* padding-bottom: 50px; */
 }
 
 
+.hero-image-ha31 {
+    background-image: url("/image/1__20161110_LaGrange_160_0625.png");
+    width: 100%;
+    height: 50%;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: absolute;
+  }
+  
+  .hero-text-ha31 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 
 
+/* 
+  .image img{width:100%}
+  .image-slab 
+  .image img>img{
+    position:absolute;
+    max-width:none;
+    max-height:none;
+    width:auto;min-width:100%;height:auto;min-height:100%;right:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)} */
 
 
+    /* get the blank icons out of the main nav */
+    @media (min-width: 62rem) {
+ul.main-nav li:nth-last-child(2).has-sub>a:before {
+    position: relative;
+    left: -0.25rem;
+    top: 0.0625rem;
+    font-size: .875rem;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+    /* content: '\f05a'; */
+    /* content: none; */
+}
+}
 
+/* add the yellow bars below the selected page */
+
+/* a:active {
+    color:#fcaf17;
+}
+
+a:hover {
+    color:#fcaf17;
+} */
+
+div .main-nav  {
+    color:#fcaf17;
+    font-size: 20px;
+}
+
+.header {
+    color:#fcaf17;
+}
+
+ul.main-nav li a {
+    font-size: 1rem;
+    height: 2.8125rem;
+    padding: 0.5rem 0.875rem 0 0.625rem;
+    /* color: #fcaf17; */
+}
+
+ul.main.nav:hover {
+    color: #fcaf17;
+}
