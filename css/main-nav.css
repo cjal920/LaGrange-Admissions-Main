@@ -62,7 +62,7 @@ body {
 }
 
 .main-red {
-    background: #99132b;
+    background: #99132b;;
     padding: 5px;
     background-image: url("/image/wave-dark.png");
     background-color: #99132b;
@@ -410,4 +410,8 @@ ul.main-nav li a {
 
 .nav-padding {
         padding-right: 30px;
+}
+
+.main-nav-wrap  {
+    background-color: #981b2d;
 }
